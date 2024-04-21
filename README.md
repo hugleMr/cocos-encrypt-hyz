@@ -1,7 +1,6 @@
 # hyz-encript
 cocoscreator encryption obfuscation is written based on 2.4.5. It is theoretically suitable for engine 2.4.0-2.4.6. The most important thing is that it is open source.
-![screenshot](https://user-images.githubusercontent.com/11954247/141231612-5fe82cd1-a27a-4f16-ae22-d299c13b17a0.png)
-
+![Screenshot 2024-04-22 010946](https://github.com/hugleMr/cocos-encrypt-hyz/assets/10258615/55c7783c-6d14-4ebc-a27f-cbcb661c0969)
 
 Function:
 - **web client** supports encrypted images, text, and json
@@ -17,3 +16,4 @@ The local file name is also calculated as md5 and redirected;
 
 **How to use:**
 It must be built first. Currently, jsb-link, web-mobile, and web-desktop are supported. Then open the plug-in, select the corresponding construction method, fill in the encryption signature and secret key, and click the encryption button.
+
