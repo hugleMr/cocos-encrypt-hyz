@@ -107,7 +107,7 @@ Editor.Panel.extend({
     tool.startBuild();
     
     Fs.writeFileSync(this.recordPath,JSON.stringify(record))
-    Editor.log('--------------加密完成')
+    Editor.log('--------------Encrypted completion')
   },
 
   _getBuildPath(){

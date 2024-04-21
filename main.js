@@ -13,7 +13,7 @@ module.exports = {
   messages: {
     'showPanel' () {
       Editor.Panel.open('hyz-encript');
-      Editor.log('欢迎使用hyz-encript');
+      Editor.log('hyz-encript');
     },
   },
 };

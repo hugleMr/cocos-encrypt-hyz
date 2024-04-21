@@ -22,8 +22,8 @@
 <body>
 <h1 class="header">hello_world</h1>
 
-<div id="GameDiv"  style="width:378px; height: 672px;">
-  <canvas id="GameCanvas" width="378" height="672"></canvas>
+<div id="GameDiv"  style="width:1008px; height: 567px;">
+  <canvas id="GameCanvas" width="1008" height="567"></canvas>
   <div id="splash">
     <div class="progress-bar stripes">
       <span style="width: 0%"></span>
@@ -63,7 +63,7 @@
     loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js', function () {
       loadScript("assets/md5_util.js",function () {
           loadScript("assets/web_downloader.js",function () {
-              hyz.register_decripted_downloader(tmp_encriptSign,tmp_encriptKey,tmp_needMixFilename,tmp_nameMixSign);
+              hyz.register_custom_downloader(tmp_encriptSign,tmp_encriptKey,tmp_needMixFilename,tmp_nameMixSign);
               if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
                 loadScript(debug ? 'physics.js' : 'physics-min.js', window.boot);
               }

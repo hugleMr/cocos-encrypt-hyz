@@ -139,6 +139,9 @@ module.exports = class Tools{
     }
 
     startBuild(){
+        const levelsPath = Path.join(this.buildFloderPath, "levels");
+        Editor.log("levelsPath : ", levelsPath)
+        this.encriptDir_(levelsPath);
         let assetsPath = Path.join(this.buildFloderPath,"assets")
         this.encriptDir_(assetsPath);
         if(this.buildType==BuildTypeEnum.jsb_link){

@@ -185,7 +185,7 @@ function copyHelper() {
     let toPath = Path.join(buildFloderPath,"assets","md5_util.js");
     Fs.copyFile(fromPath,toPath,function (err) {
         if(err){
-            Editor.error("复制md5_util.js出错")
+            Editor.error("Copy md5_util.js error")
         }
     });
   

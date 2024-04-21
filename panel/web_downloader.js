@@ -435,7 +435,7 @@ var nameMixSign = "";
 window.hyz = window.hyz || {};
 let hyz = window.hyz;
 
-hyz.register_decripted_downloader = function register_decripted_downloader(_encriptSign,_encriptKey,_needMixFilename,_nameMixSign) {
+hyz.register_custom_downloader = function register_custom_downloader(_encriptSign,_encriptKey,_needMixFilename,_nameMixSign) {
     _decriptTool.setKeySign(_encriptKey,_encriptSign)
     needMixFilename = _needMixFilename
     nameMixSign = _nameMixSign
