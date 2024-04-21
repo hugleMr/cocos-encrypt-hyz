@@ -1,5 +1,6 @@
 # hyz-encript
-cocoscreator encryption obfuscation is written based on 2.4.5. It is theoretically suitable for engine 2.4.0-2.4.6. The most important thing is that it is open source.
+cocoscreator encryption obfuscation is written based on 2.4.5. It is theoretically suitable for engine 2.4.0-2.4.6.
+The most important thing is that it is open source.
 ![Screenshot 2024-04-22 010946](https://github.com/hugleMr/cocos-encrypt-hyz/assets/10258615/55c7783c-6d14-4ebc-a27f-cbcb661c0969)
 
 Function:
